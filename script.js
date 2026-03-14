@@ -104,7 +104,7 @@ function updateSeatAvailability() {
     let bookings = JSON.parse(localStorage.getItem('iftar_bookings')) || [];
 
     // Assuming we start with 0 base bookings
-    let baseBookings = 7;
+    let baseBookings = 17;
     let actualBooked = baseBookings + bookings.length;
     if (actualBooked > TOTAL_SEATS) actualBooked = TOTAL_SEATS;
 
